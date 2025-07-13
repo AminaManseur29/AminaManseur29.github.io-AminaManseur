@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects – Amina Manseur</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="resume-container">
+    <header class="resume-header">
+      <h1>Projects</h1>
+      <a href="index.html" class="btn">← Back</a>
+    </header>
+
+    <div class="projects-grid">
+
+      <!-- KAUST Internship -->
+      <div class="project-card">
+        <img src="images/kaust.png" alt="KAUST Internship">
+        <div class="project-content">
+          <h3>Foundations of Private and Fair sStatistics – KAUST</h3>
+          <p>Five-month research internship within the PRADA Lab.<br/>
+            Worked on the foundations of private and fair statistics through the design of algorithms to obtain accurate and private estimators from sensitive data.<br/>
+            Topics included: linear regression, generalized linear models, high-dimensional probability, truthful mechanism design, multi-armed bandits, and differential privacy.<br/>
+            Projects:
+            <ul>
+              <li><strong>Truthful High Dimensional Sparse Linear Regression</strong> (submitted to NeurIPS)</li>
+              <li><strong>Robust and Private Bandits with Alpha-Contamination</strong></li>
+            </ul>
+            Supervisor: Di Wang<br/>
+            Collaborators: Liyang Zhu, Yulian Wu
+          </p>
+          <a href="docs/foundations_private_and_fair_stats_report.pdf" class="btn small" target="_blank">See report</a>
+        </div>
+      </div>
+
+      <!-- AMSE Internship -->
+      <div class="project-card">
+        <img src="images/amse.png" alt="AMSE Internship">
+        <div class="project-content">
+          <h3>Diffusion for Trajectories – AMSE</h3>
+          <p>
+            Generating financial time series from generative AI models (diffusion models), with the aim of augmenting data where financial data is scarce and expensive.<br/>
+            Used S&P500 and Bitcoin price data to train and evaluate models.<br/>
+            Main challenges:
+            <ul>
+              <li>Exploration of 1D diffusion models for signal generation</li>
+              <li>Evaluation of signal quality using standard and custom metrics</li>
+              <li>Focus on financial signal properties: volatility clustering, heavy tails, no return autocorrelation</li>
+            </ul>
+            Supervisors: Badih Ghattas & Georges Oppenheim
+          </p>
+          <a href="docs/diffusion_for_trajectories_report.pdf" class="btn small" target="_blank">Report</a>
+          <a href="docs/diffusion_for_trajectories_slides.pdf" class="btn small" target="_blank">Slides</a>
+        </div>
+      </div>
+
+      <!-- EDF Project -->
+      <div class="project-card">
+        <img src="images/edf.png" alt="EDF Project">
+        <div class="project-content">
+          <h3>Applied Statistics Project – EDF</h3>
+          <p>
+            Forecasting electric vehicle electricity consumption in France using mobility projections.<br/>
+            Based on the 2019 INSEE “Enquête Mobilité des Personnes” survey.<br/>
+            Focused on two scenarios:
+            <ul>
+              <li>Demographic change (INSEE projections for 2040–2070)</li>
+              <li>Global warming (projections from Météo France and CNRM)</li>
+            </ul>
+            Method: resampling and calibration with the Calmar algorithm.<br/>
+            Supervisor: Benjamin Petiau (EDF)
+          </p>
+          <a href="docs/applied_stats_report.pdf" class="btn small" target="_blank">Report</a>
+          <a href="docs/applied_stats_slides.pdf" class="btn small" target="_blank">Slides</a>
+        </div>
+      </div>
+
+      <!-- Bayesian Clustering -->
+      <div class="project-card">
+        <img src="images/bayes.png" alt="Bayesian Clustering">
+        <div class="project-content">
+          <h3>Bayesian Time Series Clustering</h3>
+          <p>
+            Replication and application of Fröhwirth-Schnatter & Kaufmann (2008).<br/>
+            Bayesian model-based clustering for multiple time series using finite mixture models and MCMC simulations.<br/>
+            Applied to GDP data to jointly estimate clusters, cluster-specific parameters, and the optimal number of clusters.
+          </p>
+          <a href="docs/bayesian_clustering_report.pdf" class="btn small" target="_blank">See report</a>
+        </div>
+      </div>
+
+      <!-- NLP -->
+      <div class="project-card">
+        <img src="images/nlp.png" alt="LLM Text Detection">
+        <div class="project-content">
+          <h3>LLM Text Detection (NLP)</h3>
+          <p>
+            NLP Project:</strong> Developed a semantic model to detect texts generated by LLMs vs. humans using embedding-based classifiers.<br/>
+          </p>
+          <a href="docs/llm_detection_report.pdf" class="btn small" target="_blank">NLP Report</a>
+        </div>
+      </div>
+
+      <!-- Advanced ML -->
+      <div class="project-card">
+        <img src="images/bge_adam.png" alt="Statistics Project">
+        <div class="project-content">
+          <h3>BGE Adam (Advanced ML)<h3>
+            <p>
+                Development and evaluation of an advanced variant of the Adam optimizer on classification models (MNIST), with theoretical and experimental analysis of its performance. 
+            </p>
+          <a href="docs/bge_adam_report.pdf" class="btn small" target="_blank">See report</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
